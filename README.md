@@ -10,3 +10,6 @@
     - config/initializers/generators.rbまで作成
     - Gemfileにgemを追加、そしてbundle install
     - 念の為に枝を変えろと言われたのでdevelop枝に移転する
+
+1. Bootstrap4 の導入
+    - Bootstrap4の導入の為にyarnを
