@@ -83,3 +83,6 @@ gem 'devise-bootstrap-views', '~> 1.0'
 
 # こちらもお好みです。動作確認用のランダムメッセージを入れるために使用します
 gem 'faker'
+
+# Bootstrap導入用のgem。
+gem 'cssbundling-rails'
