@@ -6,7 +6,7 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module CHAT
+module AssociationTutorial
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
@@ -18,5 +18,12 @@ module CHAT
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    # ********** 以下を追加 **********
+    config.i18n.default_locale = :ja
+    config.time_zone = 'Asia/Tokyo'
+    # ********** 以上を追加 **********
+    
+    # Don't generate system test files.
+    config.generators.system_tests = nil
   end
 end
