@@ -9,3 +9,4 @@
 0. 準備
     - config/initializers/generators.rbまで作成
     - Gemfileにgemを追加、そしてbundle install
+    - 念の為に枝を変えろと言われたのでdevelop枝に移転する
