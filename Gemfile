@@ -70,3 +70,16 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# ログイン機能
+gem "devise", "~> 4.8"
+
+# 日本語化
+gem 'rails-i18n', '~> 7.0'
+gem 'devise-i18n'
+
+# こちらはお好みです。ログインページにBootstrapが適用され，見た目がマシになります
+gem 'devise-bootstrap-views', '~> 1.0'
+
+# こちらもお好みです。動作確認用のランダムメッセージを入れるために使用します
+gem 'faker'

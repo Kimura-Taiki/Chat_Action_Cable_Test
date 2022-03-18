@@ -7,4 +7,5 @@
 ----
 
 0. 準備
-  - config/initializers/generators.rbまで作成
+    - config/initializers/generators.rbまで作成
+    - Gemfileにgemを追加、そしてbundle install
