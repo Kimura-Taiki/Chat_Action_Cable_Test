@@ -3,6 +3,6 @@ class RoomsController < ApplicationController
     # 投稿一覧表示用に利用
     @messages = Message.includes(:user).order(:id)
     # メッセージ投稿に利用
-    @mesasge = current_user.messages.build
+    @message = current_user.messages.build
   end
 end
