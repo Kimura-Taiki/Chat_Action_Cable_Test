@@ -38,3 +38,4 @@
 
 4. Action Cable の設定・確認
     - Action Cable の設定・確認
+    - 監視状態の動作確認(この段階で)

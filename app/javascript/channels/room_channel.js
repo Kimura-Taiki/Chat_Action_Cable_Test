@@ -1,8 +1,9 @@
 import consumer from "./consumer"
 
 consumer.subscriptions.create("RoomChannel", {
+  // フロント側からサーバー側を監視できているか確認できた時に動く関数
   connected() {
-    // Called when the subscription is ready for use on the server
+    console.log("フロント側からの監視")
   },
 
   disconnected() {
