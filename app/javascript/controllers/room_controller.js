@@ -7,4 +7,4 @@ export default class extends Controller {
   }
 }
 
-console.log("room_controller.js");
+// console.log("room_controller.js");

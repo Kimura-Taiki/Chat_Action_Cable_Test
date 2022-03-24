@@ -6,4 +6,4 @@ export default class extends Controller {
   }
 }
 
-console.log("hello_controller.js");
+// console.log("hello_controller.js");
