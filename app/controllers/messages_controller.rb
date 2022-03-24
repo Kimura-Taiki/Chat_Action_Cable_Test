@@ -1,7 +1,8 @@
 class MessagesController < ApplicationController
   def create
     @message = current_user.messages.create!(message_params)
-    p @message
+    render plain: "OK"
+    # p @message
     # redirect_to "/"
     # render
   end

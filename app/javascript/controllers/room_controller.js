@@ -1,3 +1,4 @@
+
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
@@ -6,4 +7,4 @@ export default class extends Controller {
   }
 }
 
-console.log("hello_controller.js");
+console.log("room_controller.js");
