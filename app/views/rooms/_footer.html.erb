@@ -1,8 +1,8 @@
 <footer class = "fixed-bottom" id = "footer">
   <%= form_with model: @message, local: false do |f| %>
     <div class = "form-group">
-      ここは自動的に message_content というidが付きます。アンダーバーなので注意！
-      <%= f.text_area :content, class: "form-control", row: "1", maxlength: "500" %>
+      <!--ここは自動的に message_content というidが付きます。アンダーバーなので注意！-->
+      <%= f.text_area :context, class: "form-control", row: "1", maxlength: "500" %>
     </div>
 
     <div class = "form-group">
